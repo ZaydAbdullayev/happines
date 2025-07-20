@@ -1,0 +1,16 @@
+.map-wrapper {
+  width: 100%;
+  height: 82dvh;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.country-label {
+  font-size: 6px;
+  font-weight: 600;
+  pointer-events: none;
+  z-index: 50;
+  text-anchor: middle;
+  color: #000000;
+}
