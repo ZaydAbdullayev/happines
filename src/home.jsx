@@ -7,11 +7,11 @@ export function App() {
     <div className="app">
       <div className="container">
         <header>
-          <h1>World Happiness Index 2024</h1>
+          <h1>Happiness Index 2025</h1>
           <p>Happiness levels by country based on the World Happiness Report</p>
         </header>
 
-        <button className="button-55">
+        <button className="button-55" onClick={() => window.open("https://x.com/HappyIndex2025", "_blank")}>
           Follow US <RiTwitterXFill />
         </button>
 
